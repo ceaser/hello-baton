@@ -7,7 +7,7 @@ class Hello::TestBaton < Minitest::Test
     refute_nil ::Hello::Baton::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
-  end
+  # def test_it_does_something_useful
+  #   assert false
+  # end
 end
